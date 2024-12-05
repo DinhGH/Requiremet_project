@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\LMS\\LMSForCustomer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|e:\\lms\\lmsforcustomer\\lmsforcustomer\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|solutionrelative:lmsforcustomer\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|e:\\lms\\lmsforcustomer\\lmsforcustomer\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|solutionrelative:lmsforcustomer\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|e:\\lms\\lmsforcustomer\\lmsforcustomer\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|solutionrelative:lmsforcustomer\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|e:\\lms\\lmsforcustomer\\lmsforcustomer\\frm_dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|solutionrelative:lmsforcustomer\\frm_dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|e:\\lms\\lmsforcustomer\\lmsforcustomer\\frm_dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|solutionrelative:lmsforcustomer\\frm_dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|e:\\lms\\lmsforcustomer\\lmsforcustomer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|solutionrelative:lmsforcustomer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\LMS\\LMSForCustomer\\LMSForCustomer\\Program.cs",
+              "RelativeDocumentMoniker": "LMSForCustomer\\Program.cs",
+              "ToolTip": "E:\\LMS\\LMSForCustomer\\LMSForCustomer\\Program.cs",
+              "RelativeToolTip": "LMSForCustomer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:51:14.027Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Trangchu.cs [Design]",
+              "DocumentMoniker": "E:\\LMS\\LMSForCustomer\\LMSForCustomer\\Trangchu.cs",
+              "RelativeDocumentMoniker": "LMSForCustomer\\Trangchu.cs",
+              "ToolTip": "E:\\LMS\\LMSForCustomer\\LMSForCustomer\\Trangchu.cs [Design]",
+              "RelativeToolTip": "LMSForCustomer\\Trangchu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:51:04.709Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_dangnhap.cs",
+              "DocumentMoniker": "E:\\LMS\\LMSForCustomer\\LMSForCustomer\\frm_dangnhap.cs",
+              "RelativeDocumentMoniker": "LMSForCustomer\\frm_dangnhap.cs",
+              "ToolTip": "E:\\LMS\\LMSForCustomer\\LMSForCustomer\\frm_dangnhap.cs",
+              "RelativeToolTip": "LMSForCustomer\\frm_dangnhap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:20:48.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frm_dangnhap.cs [Design]",
+              "DocumentMoniker": "E:\\LMS\\LMSForCustomer\\LMSForCustomer\\frm_dangnhap.cs",
+              "RelativeDocumentMoniker": "LMSForCustomer\\frm_dangnhap.cs",
+              "ToolTip": "E:\\LMS\\LMSForCustomer\\LMSForCustomer\\frm_dangnhap.cs [Design]",
+              "RelativeToolTip": "LMSForCustomer\\frm_dangnhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:02:18.553Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frm_dangky.cs",
+              "DocumentMoniker": "E:\\LMS\\LMSForCustomer\\LMSForCustomer\\frm_dangky.cs",
+              "RelativeDocumentMoniker": "LMSForCustomer\\frm_dangky.cs",
+              "ToolTip": "E:\\LMS\\LMSForCustomer\\LMSForCustomer\\frm_dangky.cs",
+              "RelativeToolTip": "LMSForCustomer\\frm_dangky.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAtwCwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:37:10.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frm_dangky.cs [Design]",
+              "DocumentMoniker": "E:\\LMS\\LMSForCustomer\\LMSForCustomer\\frm_dangky.cs",
+              "RelativeDocumentMoniker": "LMSForCustomer\\frm_dangky.cs",
+              "ToolTip": "E:\\LMS\\LMSForCustomer\\LMSForCustomer\\frm_dangky.cs [Design]",
+              "RelativeToolTip": "LMSForCustomer\\frm_dangky.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:19:49.286Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
