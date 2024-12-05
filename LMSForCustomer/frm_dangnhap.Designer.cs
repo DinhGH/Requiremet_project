@@ -30,19 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_dangnhap));
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.hyperlinkLabelControl2 = new DevExpress.XtraEditors.HyperlinkLabelControl();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.hyperlinkLabelControl1 = new DevExpress.XtraEditors.HyperlinkLabelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.passwordForm = new DevExpress.XtraEditors.TextEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.hyperlinkLabelControl1 = new DevExpress.XtraEditors.HyperlinkLabelControl();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.hyperlinkLabelControl2 = new DevExpress.XtraEditors.HyperlinkLabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.passwordForm.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -56,13 +56,40 @@
             this.panelControl1.Controls.Add(this.labelControl6);
             this.panelControl1.Controls.Add(this.simpleButton1);
             this.panelControl1.Controls.Add(this.textEdit1);
-            this.panelControl1.Controls.Add(this.textEdit2);
+            this.panelControl1.Controls.Add(this.passwordForm);
             this.panelControl1.Controls.Add(this.labelControl2);
             this.panelControl1.Controls.Add(this.labelControl4);
             this.panelControl1.Location = new System.Drawing.Point(249, 84);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(495, 363);
             this.panelControl1.TabIndex = 11;
+            // 
+            // hyperlinkLabelControl2
+            // 
+            this.hyperlinkLabelControl2.Location = new System.Drawing.Point(279, 332);
+            this.hyperlinkLabelControl2.Name = "hyperlinkLabelControl2";
+            this.hyperlinkLabelControl2.Size = new System.Drawing.Size(46, 16);
+            this.hyperlinkLabelControl2.TabIndex = 15;
+            this.hyperlinkLabelControl2.Text = "Đăng ký";
+            this.hyperlinkLabelControl2.Click += new System.EventHandler(this.hyperlinkLabelControl2_Click);
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Location = new System.Drawing.Point(164, 332);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(109, 16);
+            this.labelControl1.TabIndex = 14;
+            this.labelControl1.Text = "Chưa có tài khoản?";
+            // 
+            // hyperlinkLabelControl1
+            // 
+            this.hyperlinkLabelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.hyperlinkLabelControl1.Appearance.Options.UseFont = true;
+            this.hyperlinkLabelControl1.Location = new System.Drawing.Point(290, 227);
+            this.hyperlinkLabelControl1.Name = "hyperlinkLabelControl1";
+            this.hyperlinkLabelControl1.Size = new System.Drawing.Size(102, 17);
+            this.hyperlinkLabelControl1.TabIndex = 13;
+            this.hyperlinkLabelControl1.Text = "Quên mật khẩu?";
             // 
             // labelControl6
             // 
@@ -98,17 +125,19 @@
             this.textEdit1.Size = new System.Drawing.Size(278, 28);
             this.textEdit1.TabIndex = 5;
             // 
-            // textEdit2
+            // passwordForm
             // 
-            this.textEdit2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textEdit2.Location = new System.Drawing.Point(114, 193);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.textEdit2.Properties.Appearance.Options.UseBackColor = true;
-            this.textEdit2.Properties.Appearance.Options.UseFont = true;
-            this.textEdit2.Size = new System.Drawing.Size(278, 28);
-            this.textEdit2.TabIndex = 6;
+            this.passwordForm.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.passwordForm.EditValue = "";
+            this.passwordForm.Location = new System.Drawing.Point(114, 193);
+            this.passwordForm.Name = "passwordForm";
+            this.passwordForm.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.passwordForm.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.passwordForm.Properties.Appearance.Options.UseBackColor = true;
+            this.passwordForm.Properties.Appearance.Options.UseFont = true;
+            this.passwordForm.Size = new System.Drawing.Size(278, 28);
+            this.passwordForm.TabIndex = 6;
+            this.passwordForm.EditValueChanged += new System.EventHandler(this.textEdit2_EditValueChanged);
             // 
             // labelControl2
             // 
@@ -138,33 +167,6 @@
             this.labelControl4.TabIndex = 3;
             this.labelControl4.Text = "Mật khẩu";
             // 
-            // hyperlinkLabelControl1
-            // 
-            this.hyperlinkLabelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 8F);
-            this.hyperlinkLabelControl1.Appearance.Options.UseFont = true;
-            this.hyperlinkLabelControl1.Location = new System.Drawing.Point(290, 227);
-            this.hyperlinkLabelControl1.Name = "hyperlinkLabelControl1";
-            this.hyperlinkLabelControl1.Size = new System.Drawing.Size(102, 17);
-            this.hyperlinkLabelControl1.TabIndex = 13;
-            this.hyperlinkLabelControl1.Text = "Quên mật khẩu?";
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Location = new System.Drawing.Point(164, 332);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(109, 16);
-            this.labelControl1.TabIndex = 14;
-            this.labelControl1.Text = "Chưa có tài khoản?";
-            // 
-            // hyperlinkLabelControl2
-            // 
-            this.hyperlinkLabelControl2.Location = new System.Drawing.Point(279, 332);
-            this.hyperlinkLabelControl2.Name = "hyperlinkLabelControl2";
-            this.hyperlinkLabelControl2.Size = new System.Drawing.Size(46, 16);
-            this.hyperlinkLabelControl2.TabIndex = 15;
-            this.hyperlinkLabelControl2.Text = "Đăng ký";
-            this.hyperlinkLabelControl2.Click += new System.EventHandler(this.hyperlinkLabelControl2_Click);
-            // 
             // frm_dangnhap
             // 
             this.Appearance.BackColor = System.Drawing.Color.Silver;
@@ -176,11 +178,12 @@
             this.IconOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("frm_dangnhap.IconOptions.LargeImage")));
             this.Name = "frm_dangnhap";
             this.Text = "frm_dangnhap";
+            this.Load += new System.EventHandler(this.frm_dangnhap_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.passwordForm.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -191,7 +194,7 @@
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
+        private DevExpress.XtraEditors.TextEdit passwordForm;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.HyperlinkLabelControl hyperlinkLabelControl1;

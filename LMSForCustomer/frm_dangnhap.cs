@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace LMSForCustomer
 {
@@ -28,6 +29,16 @@ namespace LMSForCustomer
         {
            Trangchu frm = new Trangchu();
             frm.Show();
+        }
+
+        private void textEdit2_EditValueChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void frm_dangnhap_Load(object sender, EventArgs e)
+        {
+            passwordForm.Properties.UseSystemPasswordChar = true;
         }
     }
 }
