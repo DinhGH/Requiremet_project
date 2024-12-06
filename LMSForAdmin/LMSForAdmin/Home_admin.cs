@@ -11,11 +11,16 @@ using DevExpress.XtraBars;
 
 namespace LMSForAdmin
 {
-    public partial class RibbonForm1 : DevExpress.XtraBars.Ribbon.RibbonForm
+    public partial class Home_admin : DevExpress.XtraBars.Ribbon.RibbonForm
     {
-        public RibbonForm1()
+        public Home_admin()
         {
             InitializeComponent();
+        }
+
+        private void barButtonItem8_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
         }
     }
 }

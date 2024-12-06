@@ -20,8 +20,8 @@ namespace LMSForAdmin
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            RibbonForm1 frm = new RibbonForm1();
-            frm.Show();
+           Home_admin home_Admin = new Home_admin();
+            home_Admin.Show();
         }
     }
 }
