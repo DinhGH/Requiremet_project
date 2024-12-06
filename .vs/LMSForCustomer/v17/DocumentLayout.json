@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\thuan\\source\\repos\\Requiremet_project\\",
-  "Documents": [],
+  "WorkspaceRootPath": "X:\\Requiremet_project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|x:\\requiremet_project\\lmsforcustomer\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5674AEE8-D915-43A2-988A-7B3D51D70287}|LMSForCustomer\\LMSForCustomer.csproj|solutionrelative:lmsforcustomer\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_dangnhap.cs [Design]",
+              "DocumentMoniker": "X:\\Requiremet_project\\LMSForCustomer\\frm_dangnhap.cs",
+              "RelativeDocumentMoniker": "LMSForCustomer\\frm_dangnhap.cs",
+              "ToolTip": "X:\\Requiremet_project\\LMSForCustomer\\frm_dangnhap.cs [Design]",
+              "RelativeToolTip": "LMSForCustomer\\frm_dangnhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:18:17.003Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
