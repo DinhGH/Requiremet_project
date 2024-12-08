@@ -20,6 +20,19 @@ namespace LMSForAdmin
 
         private void barButtonItem8_ItemClick(object sender, ItemClickEventArgs e)
         {
+            xtraTabbedMdiManager1.MdiParent = this;
+            frm_dangnhap frm_Dangnhap = new frm_dangnhap();
+            frm_Dangnhap.MdiParent = this;
+            frm_Dangnhap.Show();
+        }
+
+        private void Home_admin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void imageEdit2_EditValueChanged(object sender, EventArgs e)
+        {
 
         }
     }

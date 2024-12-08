@@ -31,3 +31,15 @@ X:\Requiremet_project\LMSForAdmin\LMSForAdmin\obj\Debug\LMSForAd.E0205D39.Up2Dat
 X:\Requiremet_project\LMSForAdmin\LMSForAdmin\obj\Debug\LMSForAdmin.exe
 X:\Requiremet_project\LMSForAdmin\LMSForAdmin\obj\Debug\LMSForAdmin.pdb
 X:\Requiremet_project\LMSForAdmin\LMSForAdmin\obj\Debug\LMSForAdmin.Home_admin.resources
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.XtraGrid.v24.1.dll
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.XtraLayout.v24.1.dll
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.XtraPrinting.v24.1.dll
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.RichEdit.v24.1.Core.dll
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.XtraTreeList.v24.1.dll
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.Office.v24.1.Core.dll
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.XtraGrid.v24.1.xml
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.XtraLayout.v24.1.xml
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.XtraPrinting.v24.1.xml
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.RichEdit.v24.1.Core.xml
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.XtraTreeList.v24.1.xml
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.Office.v24.1.Core.xml

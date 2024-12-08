@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "X:\\Requiremet_project\\LMSForAdmin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|X:\\Requiremet_project\\LMSForAdmin\\lmsforadmin\\home_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|solutionrelative:lmsforadmin\\home_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|x:\\requiremet_project\\lmsforadmin\\lmsforadmin\\home_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|solutionrelative:lmsforadmin\\home_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|x:\\requiremet_project\\lmsforadmin\\lmsforadmin\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|X:\\Requiremet_project\\LMSForAdmin\\lmsforadmin\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|solutionrelative:lmsforadmin\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|X:\\Requiremet_project\\LMSForAdmin\\lmsforadmin\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|solutionrelative:lmsforadmin\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|x:\\requiremet_project\\lmsforadmin\\lmsforadmin\\xtraform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|solutionrelative:lmsforadmin\\xtraform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|X:\\Requiremet_project\\LMSForAdmin\\lmsforadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|solutionrelative:lmsforadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|x:\\requiremet_project\\lmsforadmin\\lmsforadmin\\home_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|solutionrelative:lmsforadmin\\home_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|X:\\Requiremet_project\\LMSForAdmin\\lmsforadmin\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B04D60B8-895E-4041-8C9C-AB9081D90C71}|LMSForAdmin\\LMSForAdmin.csproj|solutionrelative:lmsforadmin\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,45 +38,57 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "XtraForm1.cs [Design]",
+              "DocumentMoniker": "X:\\Requiremet_project\\LMSForAdmin\\LMSForAdmin\\XtraForm1.cs",
+              "RelativeDocumentMoniker": "LMSForAdmin\\XtraForm1.cs",
+              "ToolTip": "X:\\Requiremet_project\\LMSForAdmin\\LMSForAdmin\\XtraForm1.cs [Design]",
+              "RelativeToolTip": "LMSForAdmin\\XtraForm1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:38:36.97Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Home_admin.cs",
               "DocumentMoniker": "X:\\Requiremet_project\\LMSForAdmin\\LMSForAdmin\\Home_admin.cs",
               "RelativeDocumentMoniker": "LMSForAdmin\\Home_admin.cs",
-              "ToolTip": "X:\\Requiremet_project\\LMSForAdmin\\LMSForAdmin\\Home_admin.cs",
-              "RelativeToolTip": "LMSForAdmin\\Home_admin.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBYAAAAAAAAAAAAAAA==",
+              "ToolTip": "X:\\Requiremet_project\\LMSForAdmin\\LMSForAdmin\\Home_admin.cs*",
+              "RelativeToolTip": "LMSForAdmin\\Home_admin.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAtwBkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T11:45:42.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Home_admin.cs [Design]",
               "DocumentMoniker": "X:\\Requiremet_project\\LMSForAdmin\\LMSForAdmin\\Home_admin.cs",
               "RelativeDocumentMoniker": "LMSForAdmin\\Home_admin.cs",
-              "ToolTip": "X:\\Requiremet_project\\LMSForAdmin\\LMSForAdmin\\Home_admin.cs [Design]",
-              "RelativeToolTip": "LMSForAdmin\\Home_admin.cs [Design]",
+              "ToolTip": "X:\\Requiremet_project\\LMSForAdmin\\LMSForAdmin\\Home_admin.cs [Design]*",
+              "RelativeToolTip": "LMSForAdmin\\Home_admin.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T11:38:26.514Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frm_dangnhap.cs",
               "DocumentMoniker": "X:\\Requiremet_project\\LMSForAdmin\\LMSForAdmin\\frm_dangnhap.cs",
               "RelativeDocumentMoniker": "LMSForAdmin\\frm_dangnhap.cs",
               "ToolTip": "X:\\Requiremet_project\\LMSForAdmin\\LMSForAdmin\\frm_dangnhap.cs",
               "RelativeToolTip": "LMSForAdmin\\frm_dangnhap.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T10:13:05.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "X:\\Requiremet_project\\LMSForAdmin\\LMSForAdmin\\Program.cs",
               "RelativeDocumentMoniker": "LMSForAdmin\\Program.cs",
@@ -85,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "frm_dangnhap.cs [Design]",
               "DocumentMoniker": "X:\\Requiremet_project\\LMSForAdmin\\LMSForAdmin\\frm_dangnhap.cs",
               "RelativeDocumentMoniker": "LMSForAdmin\\frm_dangnhap.cs",

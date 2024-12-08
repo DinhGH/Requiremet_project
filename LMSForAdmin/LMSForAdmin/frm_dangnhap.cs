@@ -23,5 +23,10 @@ namespace LMSForAdmin
            Home_admin home_Admin = new Home_admin();
             home_Admin.Show();
         }
+
+        private void frm_dangnhap_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
