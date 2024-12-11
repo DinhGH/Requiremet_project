@@ -11,9 +11,9 @@ using DevExpress.XtraEditors;
 
 namespace LMSForAdmin
 {
-    public partial class XtraForm1 : DevExpress.XtraEditors.XtraForm
+    public partial class frm_xuathang : DevExpress.XtraEditors.XtraForm
     {
-        public XtraForm1()
+        public frm_xuathang()
         {
             InitializeComponent();
         }

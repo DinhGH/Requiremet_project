@@ -43,3 +43,9 @@ X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.XtraPrinting.
 X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.RichEdit.v24.1.Core.xml
 X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.XtraTreeList.v24.1.xml
 X:\Requiremet_project\LMSForAdmin\LMSForAdmin\bin\Debug\DevExpress.Office.v24.1.Core.xml
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\obj\Debug\LMSForAdmin.frm_dsycdv.resources
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\obj\Debug\LMSForAdmin.frm_nhaphang.resources
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\obj\Debug\LMSForAdmin.frm_phongcandondep.resources
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\obj\Debug\LMSForAdmin.frm_quanlibcsc.resources
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\obj\Debug\LMSForAdmin.frm_sodophong.resources
+X:\Requiremet_project\LMSForAdmin\LMSForAdmin\obj\Debug\LMSForAdmin.frm_xuathang.resources

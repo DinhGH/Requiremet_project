@@ -1,6 +1,6 @@
 ﻿namespace LMSForAdmin
 {
-    partial class XtraForm1
+    partial class frm_dsycdv
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frm_dsycdv
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "XtraForm1";
+            this.ClientSize = new System.Drawing.Size(298, 260);
+            this.Name = "frm_dsycdv";
+            this.Text = "Danh sách yêu cầu dịch vụ";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

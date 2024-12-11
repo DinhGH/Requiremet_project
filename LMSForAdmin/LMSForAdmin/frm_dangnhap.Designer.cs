@@ -60,28 +60,30 @@
             // 
             this.labelControl2.Location = new System.Drawing.Point(387, 161);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(75, 16);
+            this.labelControl2.Size = new System.Drawing.Size(86, 16);
             this.labelControl2.TabIndex = 2;
-            this.labelControl2.Text = "labelControl2";
+            this.labelControl2.Text = "Tên đăng nhập";
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(387, 220);
+            this.labelControl3.Location = new System.Drawing.Point(390, 220);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(75, 16);
+            this.labelControl3.Size = new System.Drawing.Size(52, 16);
             this.labelControl3.TabIndex = 3;
-            this.labelControl3.Text = "labelControl3";
+            this.labelControl3.Text = "Mật khẩu";
+            this.labelControl3.Click += new System.EventHandler(this.labelControl3_Click);
             // 
             // hyperlinkLabelControl1
             // 
             this.hyperlinkLabelControl1.Location = new System.Drawing.Point(479, 270);
             this.hyperlinkLabelControl1.Name = "hyperlinkLabelControl1";
-            this.hyperlinkLabelControl1.Size = new System.Drawing.Size(129, 16);
+            this.hyperlinkLabelControl1.Size = new System.Drawing.Size(93, 16);
             this.hyperlinkLabelControl1.TabIndex = 4;
-            this.hyperlinkLabelControl1.Text = "hyperlinkLabelControl1";
+            this.hyperlinkLabelControl1.Text = "Quên mật khẩu?";
             // 
             // textEdit1
             // 
+            this.textEdit1.EditValue = "";
             this.textEdit1.Location = new System.Drawing.Point(387, 183);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Size = new System.Drawing.Size(125, 22);
@@ -89,6 +91,7 @@
             // 
             // textEdit2
             // 
+            this.textEdit2.EditValue = "";
             this.textEdit2.Location = new System.Drawing.Point(387, 242);
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Size = new System.Drawing.Size(125, 22);

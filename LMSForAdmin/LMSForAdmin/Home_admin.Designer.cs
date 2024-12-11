@@ -55,7 +55,6 @@
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.barStaticItem3 = new DevExpress.XtraBars.BarStaticItem();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.SuspendLayout();
@@ -85,6 +84,7 @@
             this.ribbonPage2,
             this.ribbonPage3});
             this.ribbon.Size = new System.Drawing.Size(1009, 193);
+            this.ribbon.StatusBar = this.ribbonStatusBar;
             // 
             // barButtonGroup1
             // 
@@ -109,24 +109,28 @@
             this.barButtonItem3.Caption = "Nhập hàng";
             this.barButtonItem3.Id = 4;
             this.barButtonItem3.Name = "barButtonItem3";
+            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
             // barButtonItem4
             // 
             this.barButtonItem4.Caption = "Xuất hàng";
             this.barButtonItem4.Id = 5;
             this.barButtonItem4.Name = "barButtonItem4";
+            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
             // 
             // barButtonItem5
             // 
-            this.barButtonItem5.Caption = "Quản lý";
+            this.barButtonItem5.Caption = "Quản lý báo cáo sự cố";
             this.barButtonItem5.Id = 6;
             this.barButtonItem5.Name = "barButtonItem5";
+            this.barButtonItem5.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem5_ItemClick);
             // 
             // barButtonItem6
             // 
-            this.barButtonItem6.Caption = "Danh sách yêu cầu";
+            this.barButtonItem6.Caption = "Danh sách yêu cầu dịch vụ";
             this.barButtonItem6.Id = 7;
             this.barButtonItem6.Name = "barButtonItem6";
+            this.barButtonItem6.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem6_ItemClick);
             // 
             // barButtonItem7
             // 
@@ -158,6 +162,7 @@
             this.barButtonItem9.Caption = "Phòng cần dọn dẹp";
             this.barButtonItem9.Id = 12;
             this.barButtonItem9.Name = "barButtonItem9";
+            this.barButtonItem9.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem9_ItemClick);
             // 
             // ribbonPage1
             // 
@@ -202,7 +207,6 @@
             // 
             // ribbonPageGroup5
             // 
-            this.ribbonPageGroup5.ItemLinks.Add(this.barStaticItem2);
             this.ribbonPageGroup5.ItemLinks.Add(this.barButtonItem5);
             this.ribbonPageGroup5.Name = "ribbonPageGroup5";
             // 
@@ -238,14 +242,6 @@
             // 
             this.xtraTabbedMdiManager1.MdiParent = this;
             // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(442, 235);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(94, 29);
-            this.simpleButton1.TabIndex = 10;
-            this.simpleButton1.Text = "simpleButton1";
-            // 
             // Home_admin
             // 
             this.Appearance.BackColor = System.Drawing.Color.White;
@@ -253,7 +249,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1009, 730);
-            this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbon);
             this.IsMdiContainer = true;
@@ -261,7 +256,7 @@
             this.Ribbon = this.ribbon;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.StatusBar = this.ribbonStatusBar;
-            this.Text = "RibbonForm1";
+            this.Text = "LUCKY_HOTEL";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Home_admin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();
@@ -299,6 +294,5 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem9;
         private DevExpress.XtraBars.BarStaticItem barStaticItem3;
         private DevExpress.XtraTabbedMdi.XtraTabbedMdiManager xtraTabbedMdiManager1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }
